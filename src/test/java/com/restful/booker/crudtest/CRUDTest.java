@@ -33,8 +33,8 @@ public class CRUDTest {
         date.setCheckin("2023-07-01");
         date.setCheckout("2023-07-10");
         BookingPojo bookingPojo = new BookingPojo();
-        bookingPojo.setFirstname("Jimesh");
-        bookingPojo.setLastname("Patel");
+        bookingPojo.setFirstname("Mukz");
+        bookingPojo.setLastname("Shah");
         bookingPojo.setTotalprice(1000);
         bookingPojo.setDepositpaid(true);
         bookingPojo.setBookingdates(date);
@@ -66,8 +66,8 @@ public class CRUDTest {
         date.setCheckin("2023-06-01");
         date.setCheckout("2023-06-05");
         UpdateBookingPojo updateBookingPojo = new UpdateBookingPojo();
-        updateBookingPojo.setFirstname("Jimesh");
-        updateBookingPojo.setLastname("Patel");
+        updateBookingPojo.setFirstname("Mukz");
+        updateBookingPojo.setLastname("Shah");
         updateBookingPojo.setTotalprice(200);
         updateBookingPojo.setDepositpaid(true);
         updateBookingPojo.setBookingdates(date);
